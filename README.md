@@ -1,4 +1,4 @@
-# Machine Learning Class Repository
+# **Machine Learning Class Repository**
 This repository contains materials and implementations developed mainly for a Machine Learning class. It includes practical all challenges proposed during the course.
 
 ## Contents 
