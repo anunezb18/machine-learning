@@ -1,0 +1,41 @@
+[
+  {
+    "name": "exp_01",
+    "learning_rate": 0.0001,
+    "buffer_size": 100000,
+    "learning_starts": 25000,
+    "batch_size": 64,
+    "gamma": 0.99,
+    "train_freq": 4,
+    "target_update_interval": 1000,
+    "exploration_fraction": 0.2,
+    "exploration_final_eps": 0.01,
+    "timesteps": 300000
+  },
+  {
+    "name": "exp_02",
+    "learning_rate": 0.00005,
+    "buffer_size": 50000,
+    "learning_starts": 10000,
+    "batch_size": 32,
+    "gamma": 0.995,
+    "train_freq": 8,
+    "target_update_interval": 2000,
+    "exploration_fraction": 0.3,
+    "exploration_final_eps": 0.02,
+    "timesteps": 300000
+  },
+  {
+    "name": "exp_03",
+    "learning_rate": 0.0002,
+    "buffer_size": 200000,
+    "learning_starts": 50000,
+    "batch_size": 128,
+    "gamma": 0.99,
+    "train_freq": 4,
+    "target_update_interval": 5000,
+    "exploration_fraction": 0.15,
+    "exploration_final_eps": 0.005,
+    "timesteps": 300000
+  }
+]
