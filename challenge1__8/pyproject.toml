@@ -1,0 +1,34 @@
+[project]
+name = "phoenix-dqn-challenge"
+version = "0.1.0"
+description = "Expert-level DQN implementation for ALE/Phoenix-v5"
+authors = [
+    {name = "Laura Sofia Culma Ospina", email = "lsculmao@udistrital.edu.co"},
+    {name = "Alejandro Nuñez Barrera", email = "anunezb@udistrital.edu.co"}
+]
+license = {text = "GNU/GPL 3.0"}
+requires-python = ">=3.11"
+
+# ── Windows & Ubuntu Verified Dependencies ────────────────────────────────────
+# Exact versions from the working virtual environment (ml_env)
+# ─────────────────────────────────────────────────────────────────────────────
+dependencies = [
+    "numpy==1.26.4",
+    "torch==2.11.0",
+    "stable-baselines3==2.7.1",
+    "gymnasium==1.0.0",
+    "ale-py==0.10.1",
+    "AutoROM==0.6.1",
+    "AutoROM.accept-rom-license==0.6.1",
+    "opencv-python==4.8.1.78",
+    "pygame==2.6.1",
+    "tensorboard==2.20.0",
+    "matplotlib==3.10.8",
+    "pandas==3.0.1",
+    "rich==14.3.3",
+    "tqdm==4.67.3",
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
