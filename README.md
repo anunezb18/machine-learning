@@ -2,10 +2,14 @@
 This repository contains materials and implementations developed mainly for a Machine Learning class. It includes practical all challenges proposed during the course.
 
 ## Project Index
-* **[Challenge 1: Atari Phoenix](./challenge_1/):** Training a **Deep Q-Network (DQN)** agent.
+* **[Challenge 1: Atari Phoenix](./challenge1__8/):** Training a **Deep Q-Network (DQN)** agent.
     * **Achievement:** Reached a high score of **4,850 points** (Expert-level performance).
     * **Tech Stack:** Stable-Baselines3, Gymnasium, TensorBoard.
-* **Challenge 2:** *(Coming Soon)*
+* **[Challenge 2: Learning with Limited Labels](./challenge2__8/):** Semi-Supervised Learning for electricity consumption classification.
+    * **Approach:** Self-training using pseudo-labels with confidence thresholding.
+    * **Achievement:** Improved **Recall by 4.4%** with only **10% labeled data**.
+    * **Models:** Logistic Regression, Random Forest, Self-training SSL.
+    * **Tech Stack:** Scikit-learn, NumPy, Pandas.
 * **Challenge 3:** *(Coming Soon)*
 
 ## Quick Start
