@@ -10,7 +10,11 @@ This repository contains materials and implementations developed mainly for a Ma
     * **Achievement:** Improved **Recall by 4.4%** with only **10% labeled data**.
     * **Models:** Logistic Regression, Random Forest, Self-training SSL.
     * **Tech Stack:** Scikit-learn, NumPy, Pandas.
-* **Challenge 3:** *(Coming Soon)*
+* **[Challenge 3: PPO vs DQN](./challenge3__8/):** Comparison between **Proximal Policy Optimization (PPO)** and **Deep Q-Network (DQN)** on the Atari environment *ALE/Phoenix-v5*.
+    * **Objective:** Evaluate which algorithm performs better under a fixed computational budget.
+    * **Focus:** Sample efficiency, training stability, and final performance.
+    * **Preliminary Result:** DQN achieved better performance, while PPO showed more stable but slower learning.
+    * **Tech Stack:** PyTorch, Gymnasium, Stable-Baselines3, TensorBoard.
 
 ## Quick Start
 Each project folder is self-contained. To replicate or test the results:
