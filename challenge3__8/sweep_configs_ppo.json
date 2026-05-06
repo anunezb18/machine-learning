@@ -1,0 +1,44 @@
+[
+  {
+    "name": "exp_01",
+    "timesteps": 300000,
+    "learning_rate": 0.0001,
+    "horizon": 512,
+    "n_epochs": 10,
+    "batch_size": 64,
+    "gamma": 0.99,
+    "gae_lambda": 0.95,
+    "clip_eps": 0.2,
+    "ent_coef": 0.01,
+    "vf_coef": 0.5,
+    "max_grad_norm": 0.5
+  },
+  {
+    "name": "exp_02",
+    "timesteps": 300000,
+    "learning_rate": 0.00005,
+    "horizon": 256,
+    "n_epochs": 8,
+    "batch_size": 32,
+    "gamma": 0.995,
+    "gae_lambda": 0.90,
+    "clip_eps": 0.1,
+    "ent_coef": 0.005,
+    "vf_coef": 0.5,
+    "max_grad_norm": 0.5
+  },
+  {
+    "name": "exp_03",
+    "timesteps": 300000,
+    "learning_rate": 0.0003,
+    "horizon": 1024,
+    "n_epochs": 12,
+    "batch_size": 64,
+    "gamma": 0.95,
+    "gae_lambda": 0.98,
+    "clip_eps": 0.3,
+    "ent_coef": 0.02,
+    "vf_coef": 0.25,
+    "max_grad_norm": 1.0
+  }
+]
