@@ -1,0 +1,10 @@
+{
+  "source": "dqn",
+  "n_steps": 5000,
+  "n_episodes": 2,
+  "seed": 42,
+  "mean_return": 4540.0,
+  "std_return": 100.0,
+  "min_return": 4440.0,
+  "max_return": 4640.0
+}

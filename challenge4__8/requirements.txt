@@ -1,0 +1,8 @@
+numpy<2
+torch
+tensorboard
+gymnasium[atari,accept-rom-license]>=0.29.1,<1.1.0
+ale-py==0.10.1
+autorom[accept-rom-license]
+opencv-python==4.8.1.78
+stable-baselines3[extra]>=2.3,<3
