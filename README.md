@@ -15,6 +15,10 @@ This repository contains materials and implementations developed mainly for a Ma
     * **Focus:** Sample efficiency, training stability, and final performance.
     * **Preliminary Result:** DQN achieved better performance, while PPO showed more stable but slower learning.
     * **Tech Stack:** PyTorch, Gymnasium, Stable-Baselines3, TensorBoard.
+* **[Challenge 4: DQN, PPO and GAIL Comparison](./challenge4__8/):** Full three-algorithm comparison extending Challenge 3 by introducing **Generative Adversarial Imitation Learning (GAIL)** and a **Behavioral Cloning (BC)** baseline on *ALE/Phoenix-v5*.
+    * **Objective:** Evaluate whether an agent that learns by imitating DQN demonstrations through adversarial training can outperform BC and approach DQN/PPO under the same 300,000-step budget.
+    * **Ablations:** State-only vs. state+action discriminator; 5k vs. 20k demonstration dataset size.
+    * **Tech Stack:** PyTorch, Gymnasium, Stable-Baselines3, TensorBoard, Matplotlib.
 
 ## Quick Start
 Each project folder is self-contained. To replicate or test the results:
