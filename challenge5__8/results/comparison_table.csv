@@ -1,0 +1,4 @@
+tag,n_clusters,noise_frac,silhouette,davies_bouldin,calinski_harabasz
+KMeans_k2,2,0.0,0.7162,0.3965,5634.4
+DBSCAN_best,2,0.004297354615470476,0.7207,0.3898,5428.3
+HC_ward_k2,2,0.0,0.7162,0.3965,5634.4

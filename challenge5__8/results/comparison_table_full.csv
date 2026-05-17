@@ -1,0 +1,6 @@
+tag,n_clusters,noise_frac,silhouette,davies_bouldin,calinski_harabasz
+KMeans_full_features,2,0.0,0.7162,0.3965,5634.4
+KMeans_temporal_subset,2,0.0,0.7733,0.3388,9433.8
+KMeans_economic_subset,2,0.0,0.5278,0.8256,12950.1
+DBSCAN_best,2,0.004297354615470476,0.7207,0.3898,5428.3
+HC_ward_k2,2,0.0,0.7162,0.3965,5634.4

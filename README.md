@@ -1,8 +1,8 @@
 # **Machine Learning Class Repository**
 This repository contains materials and implementations developed mainly for a Machine Learning class. It includes practical all challenges proposed during the course.
-
+ 
 ## Project Index
-* **[Challenge 1: Atari Phoenix](./challenge1__8/):** Training a **Deep Q-Network (DQN)** agent.
+* **[Challenge 1: Atari Phoenix](./challenge1__8/):** Training a **Deep Q-Network (DQN)** agent on the Atari environment *ALE/Phoenix-v5*.
     * **Achievement:** Reached a high score of **4,850 points** (Expert-level performance).
     * **Tech Stack:** Stable-Baselines3, Gymnasium, TensorBoard.
 * **[Challenge 2: Learning with Limited Labels](./challenge2__8/):** Semi-Supervised Learning for electricity consumption classification.
@@ -19,6 +19,10 @@ This repository contains materials and implementations developed mainly for a Ma
     * **Objective:** Evaluate whether an agent that learns by imitating DQN demonstrations through adversarial training can outperform BC and approach DQN/PPO under the same 300,000-step budget.
     * **Ablations:** State-only vs. state+action discriminator; 5k vs. 20k demonstration dataset size.
     * **Tech Stack:** PyTorch, Gymnasium, Stable-Baselines3, TensorBoard, Matplotlib.
+* **[Challenge 5: Unsupervised Clustering](./challenge5__8/):** Clustering analysis of U.S. electricity retail sales data from the EIA using **K-Means**, **DBSCAN**, and **Hierarchical (Agglomerative)** clustering on the same Energy & Utilities domain as Challenge 2.
+    * **Objective:** Discover latent consumption patterns across U.S. states and identify anomalous energy consumption outliers without using any labels.
+    * **Ablations:** Full feature set vs. temporal subset vs. economic subset; Ward vs. complete vs. average linkage.
+    * **Tech Stack:** Scikit-learn, NumPy, Pandas, Matplotlib, SciPy.
 
 ## Quick Start
 Each project folder is self-contained. To replicate or test the results:

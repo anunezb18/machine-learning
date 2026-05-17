@@ -1,0 +1,10 @@
+tag,n_clusters,noise_frac,silhouette,davies_bouldin,calinski_harabasz,linkage,k
+HC_ward_k2,2,0.0,0.7162,0.3965,5634.4,ward,2
+HC_ward_k3,3,0.0,0.4639,0.7087,5462.8,ward,3
+HC_ward_k4,4,0.0,0.1624,1.4484,4995.5,ward,4
+HC_complete_k2,2,0.0,0.7162,0.3965,5634.4,complete,2
+HC_complete_k3,3,0.0,0.2931,0.9116,2953.9,complete,3
+HC_complete_k4,4,0.0,0.2996,0.9236,4174.4,complete,4
+HC_average_k2,2,0.0,0.7162,0.3965,5634.4,average,2
+HC_average_k3,3,0.0,,,,average,3
+HC_average_k4,4,0.0,,,,average,4
