@@ -1,0 +1,4 @@
+Method,Latent dim,Anomaly rate,p95 threshold,Sil (latent),Spearman vs ISO
+AutoEncoder (AE),16,0.05,0.00059,0.8102,0.65
+VAE (β-VAE),16,0.05,1.06603,0.8893,0.76
+Isolation Forest,N/A,0.0497,0.56815,N/A,1.0

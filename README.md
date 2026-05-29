@@ -23,6 +23,12 @@ This repository contains materials and implementations developed mainly for a Ma
     * **Objective:** Discover latent consumption patterns across U.S. states and identify anomalous energy consumption outliers without using any labels.
     * **Ablations:** Full feature set vs. temporal subset vs. economic subset; Ward vs. complete vs. average linkage.
     * **Tech Stack:** Scikit-learn, NumPy, Pandas, Matplotlib, SciPy.
+* **[Challenge 6: AutoEncoders & Representation Learning](./challenge6__8/):** Anomaly detection and representation learning on the EIA electricity retail sales dataset using deep generative models, closing the unsupervised learning arc started in Challenges 2 and 5.
+    * **Objective:** Detect anomalous consumption records and learn discriminative latent representations without labels, then synthesise findings across all three unsupervised challenges.
+    * **Models:** AutoEncoder (AE), Variational AutoEncoder (β-VAE), Isolation Forest baseline.
+    * **Achievements:** Silhouette Score improved from **0.7808** (raw features) to **0.8893** (VAE μ vectors); top anomalies identified as U.S. national aggregate rows — structural outliers silently absorbed by K-Means in Challenge 5.
+    * **Ablations:** Latent dimension ∈ {8, 16, 32}; β ∈ {0.5, 1.0, 4.0}; multi-seed stability across seeds [42, 123, 777].
+    * **Tech Stack:** PyTorch, Scikit-learn, NumPy, Pandas, Matplotlib, umap-learn.
 
 ## Quick Start
 Each project folder is self-contained. To replicate or test the results:
