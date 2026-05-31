@@ -29,6 +29,12 @@ This repository contains materials and implementations developed mainly for a Ma
     * **Achievements:** Silhouette Score improved from **0.7808** (raw features) to **0.8893** (VAE μ vectors); top anomalies identified as U.S. national aggregate rows — structural outliers silently absorbed by K-Means in Challenge 5.
     * **Ablations:** Latent dimension ∈ {8, 16, 32}; β ∈ {0.5, 1.0, 4.0}; multi-seed stability across seeds [42, 123, 777].
     * **Tech Stack:** PyTorch, Scikit-learn, NumPy, Pandas, Matplotlib, umap-learn.
+* **[Challenge 7: Transfer Learning & Domain Adaptation](./challenge7__8/):** Transfer learning, neural style transfer, and domain adaptation for digit recognition under severe distribution shift between SVHN street-view photographs and MNIST handwritten digits.
+    * **Objective:** Evaluate how pretrained representations, synthetic style-transfer augmentation, and domain adaptation techniques mitigate performance degradation caused by cross-domain visual discrepancies.
+    * **Models:** ResNet-50 (Frozen Backbone, Fine-Tuning, From Scratch), Neural Style Transfer (VGG-19), Domain-Adversarial Neural Network (DANN).
+    * **Achievements:** Target-domain accuracy improved from **41.6%** (unadapted baseline) to **93.9%** with supervised adaptation; DANN achieved **63.9%** accuracy without target labels, while style-transfer augmentation improved performance to **50.6%** using only synthetic target-style data.
+    * **Ablations:** Transfer-learning strategy comparison (Frozen vs. Fine-Tuned vs. Scratch), adaptation strategy comparison (Baseline, Style-Aug, DANN, Target Fine-Tune), and multi-seed evaluation across seeds **[42, 123, 777]**.
+    * **Tech Stack:** PyTorch, Torchvision, Scikit-learn, NumPy, Pandas, Matplotlib, Grad-CAM, t-SNE.
 
 ## Quick Start
 Each project folder is self-contained. To replicate or test the results:
